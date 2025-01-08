@@ -40,7 +40,7 @@ const posts = [
       id: 6,
       title: "Meal Prepping Tips",
       description: "Save time and eat healthier with these meal prep strategies.",
-      imageUrl: "/meal-prepping.jpg",
+      imageUrl: "/Meal-Prepping.jpg",
       date: "2024-12-05",
     },
     {
