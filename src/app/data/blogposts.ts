@@ -282,7 +282,7 @@ export const blogPosts = [
           <h2 class="font-bold text-xl mb-4">Conclusion</h2>
           <p class="mb-6">Meal prepping can seem overwhelming at first, but with practice, it becomes a simple and rewarding habit. Start small, stay consistent, and enjoy the benefits of a more organized, healthy lifestyle. Remember, the key is to tailor your meal prepping routine to fit your personal preferences and schedule.</p>
         `,
-        imageUrl: "/meal-prepping.jpg",
+        imageUrl: "/Meal-Prepping.jpg",
         date: "2024-12-05",
       },
       {
