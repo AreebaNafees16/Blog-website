@@ -12,7 +12,7 @@ export default function Navbar() {
         {/* Logo */}
         <div className="text-2xl font-bold">
           <Link href="/" className="text-white font-mono">
-            Healthy Diet
+            HealthyDiet
           </Link>
         </div>
 

@@ -17,7 +17,7 @@ export default function Contact() {
             </ul>
             <h3 className="text-2xl font-semibold text-slate-800 mt-4 mb-2">Get in Touch</h3>
             <p className="text-gray-700">
-              Whether you have questions, suggestions, or just want to share your thoughts, we're here to listen. Fill out the form, and we’ll get back to you as soon as possible!
+              Whether you have questions, suggestions, or just want to share your thoughts, we&apos;re here to listen. Fill out the form, and we&apos;ll get back to you as soon as possible!
             </p>
           </div>
   

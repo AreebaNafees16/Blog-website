@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 export default function Footer() {
@@ -8,7 +9,7 @@ export default function Footer() {
         <div className="flex flex-wrap justify-between items-center">
           {/* Logo and Description */}
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
-            <h2 className="text-2xl font-bold">Healthy Diet Blog's</h2>
+            <h2 className="text-2xl font-bold">Healthy Diet Blog&apos;s</h2>
             <p className="text-sm mt-2 text-gray-200">
               Your trusted guide to healthier living. Discover tips, <br /> recipes, and advice for a balanced and happy lifestyle.
             </p>
@@ -19,24 +20,24 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="flex space-x-6">
               <li>
-                <a href="/" className="text-gray-200 hover:text-lime-300">
+                <Link href="/" className="text-gray-200 hover:text-lime-300">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/about" className="text-gray-200 hover:text-lime-300">
+                <Link href="/about" className="text-gray-200 hover:text-lime-300">
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/blogs" className="text-gray-200 hover:text-lime-300">
+                <Link href="/blogs" className="text-gray-200 hover:text-lime-300">
                   Blogs
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contact" className="text-gray-200 hover:text-lime-300">
+                <Link href="/contact" className="text-gray-200 hover:text-lime-300">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -86,7 +87,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="text-center text-gray-300 text-sm">
-          &copy; {new Date().getFullYear()} Healthy Diet Blog's.❤️ All rights reserved.
+          &copy; {new Date().getFullYear()} Healthy Diet Blog&apos;s.❤️ All rights reserved.
         </div>
       </div>
     </footer>
